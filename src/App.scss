@@ -1,0 +1,31 @@
+.container {
+  margin: 24px 40px;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+    h2 {
+      margin: 0;
+    }
+  }
+
+  section {
+    margin: 20px 0;
+  }
+
+  .inputContainer {
+    display: flex;
+
+    input {
+      margin-right: 4px;
+      flex: 1;
+    }
+
+    button {
+      width: 48px;
+    }
+  }
+}

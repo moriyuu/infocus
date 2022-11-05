@@ -1,0 +1,33 @@
+.container {
+  position: relative;
+  background-color: #bbb;
+  height: 20px;
+  width: 36px;
+  border-radius: 99px;
+  padding: 0 1px;
+  display: flex;
+  align-items: center;
+  animation: 3s ease-in;
+  transition: all 100ms;
+
+  .knob {
+    background-color: #fff;
+    height: 16px;
+    width: 16px;
+    border-radius: 99px;
+    position: absolute;
+    left: 0;
+    right: 17px;
+    transition: all 100ms;
+  }
+
+  &.on {
+    background-color: #1861d6;
+    justify-content: flex-end;
+
+    .knob {
+      left: 17px;
+      right: 0;
+    }
+  }
+}
